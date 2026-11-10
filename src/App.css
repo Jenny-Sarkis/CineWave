@@ -1,0 +1,133 @@
+/* General styling */
+body {
+  background-color: #111111;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #080808 !important;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-brand {
+  color: #ffc107 !important;
+  font-size: 25px;
+}
+
+.nav-link {
+  color: white !important;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #ffc107 !important;
+}
+
+/* Hero section */
+.hero-section {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.85)
+    ),
+    url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1600&q=85");
+
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Movie cards */
+.movie-card {
+  background-color: #1c1c1c !important;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 20px rgba(255, 193, 7, 0.15);
+}
+
+.movie-poster {
+  height: 350px;
+  object-fit: cover;
+}
+
+/* Buttons */
+.btn-warning {
+  font-weight: bold;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+/* Search and filter */
+.form-control,
+.form-select {
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+  padding: 12px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: #222;
+  color: white;
+  border-color: #ffc107;
+  box-shadow: 0 0 5px rgba(255, 193, 7, 0.4);
+}
+
+.form-control::placeholder {
+  color: #aaa;
+}
+
+.form-select option {
+  background-color: #222;
+  color: white;
+}
+
+/* About page */
+.about-icon {
+  font-size: 120px;
+}
+
+/* Movie details */
+.movie-card img {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #333;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 320px;
+  }
+
+  .hero-section h1 {
+    font-size: 38px;
+  }
+
+  .movie-poster {
+    height: 300px;
+  }
+}
