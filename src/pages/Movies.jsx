@@ -4,7 +4,7 @@ import { movies, genres } from "../data/movies";
 import MovieGrid from "../components/MovieGrid";
 import SearchBar from "../components/SearchBar";
 import GenreFilter from "../components/GenreFilter";
-import useFavorites from "../hooks/usefavorites";
+import useFavorites from "../hooks/useFavorites";
 
 function Movies() {
   const [searchTerm, setSearchTerm] = useState("");

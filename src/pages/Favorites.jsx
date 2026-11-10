@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import MovieGrid from "../components/MovieGrid";
-import useFavorites from "../hooks/usefavorites";
+import useFavorites from "../hooks/useFavorites";
 
 function Favorites() {
   const {
