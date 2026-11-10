@@ -12,6 +12,7 @@ import Features from "./pages/Features";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
+
 import "./App.css";
 
 function App() {
