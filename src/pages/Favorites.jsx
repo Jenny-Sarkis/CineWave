@@ -3,13 +3,7 @@ import MovieGrid from "../components/MovieGrid";
 import useFavorites from "../hooks/useFavorites";
 
 function Favorites() {
-  const {
-    favorites,
-    addFavorite,
-    removeFavorite,
-    isFavorite
-  } = useFavorites();
-
+  const { favorites } = useFavorites();
   return (
     <div className="container py-5">
 
