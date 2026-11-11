@@ -6,6 +6,7 @@ import MovieGrid from "../components/MovieGrid";
 import SearchBar from "../components/SearchBar";
 import GenreFilter from "../components/GenreFilter";
 import useFavorites from "../hooks/useFavorites";
+import Hero from "../components/Hero";
 
 function Home() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -81,6 +82,7 @@ function Home() {
           </Link>
         </div>
       </section>
+      <Hero/>
     </div>
   );
 }
